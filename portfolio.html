@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Midong Zhou</title>
+    <script src="js/layoutManager.js"></script>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="nav">
+        <div class="top-name lay2"> Midong Zhou </div>
+        <ul id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="resume.html">Qualifications</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="ai.html">AI</a></li>
+            <li><a href="#" id="layout-changer">Change Layout</a></li>
+        </ul>
+
+        <label for="nav-list" class="navigation-btn lay1"><span class="navigation-icon">&nbsp;</span></label>
+    </div>
+    <!-- END Nav Bar  -->
+    <!-- Cover -->
+    <div id="cover-container" class="lay2">
+        <img src="assets/lay2/cover-portfolio.jpeg" />
+        <div id="cover-text">
+            PORTFOLIO
+        </div>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="project-container">
+        <div class="project card">
+            <div class="project-image"><img src="assets/proj1.png" /></div>
+            <div class="project-contents">
+                <div class="project-title">Electrical Analog Circuit Design and Analysis</div>
+                <div class="project-time">Fall 2021</div>
+                <div class="project-description">
+                    <ul>
+                        <li>Designed and prototyped an electronic security system to detect interruptions in a light
+                            beam and prompt a response.</li>
+                        <li>Used opAmps to magnify an input signal, compare it to a reference, and trigger an indicator.
+                        </li>
+                        <li>Built, operated, and simulated Electrical circuits: amplifiers, comparators, filters, etc.
+                        </li>
+                        <li>A demo can be found here-</li>
+                    </ul>
+                    <div style="display: flex; width: 100%; align-items: center; justify-content: center; margin-bottom: 16px;"> <iframe
+                            src="https://www.youtube.com/embed/_r-UvURjgJ0" height="500"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project card">
+            <div class="project-image"><img src="assets/proj2.png" /></div>
+            <div class="project-contents">
+                <div class="project-title">Digital Circuit Design and Simulation</div>
+                <div class="project-time">2022</div>
+                <div class="project-description">
+                    <ul>
+                        <li>Built single cycle processor including the register file, sign extender, ALU module, data
+                            memory, and PC logic in Verilog.</li>
+                        <li>Created a State Diagram of a Mealy machine that implemented a controller, Verilog counter,
+                            and the finite state machine.</li>
+                        <li>Simulated a traffic light cross section on a Zybo board by designing a Verilog programmed
+                            controller based on a state diagram.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="project card">
+            <div class="project-image"><img src="assets/proj3.png" /></div>
+            <div class="project-contents">
+                <div class="project-title">Arduino Maze Robot</div>
+                <div class="project-time">2022</div>
+                <div class="project-description">
+                    <ul>
+                        <li>designed and coded a robot that would be able to traverse a maze to retrieve stress ball and
+                            bring it back to the exit</li>
+                        <li>the maze would be able to change after the robot reached the middle, thus forcing the robot
+                            to find a new way to exit the maze.</li>
+                        <li>maze walls would randomly shift after robot had successfully picked up the ball</li>
+                        <li>3d modeled and printed using fusion 360 parts for the robot and parts of the maze</li>
+                        <li>currently working on how to make the robot faster and more efficient, decreasing the time
+                            needed to enter and exit the maze</li>
+                        <li>these tutorials heleped me a lot for this project
+                            <ul>
+                                <li><a
+                                        href="https://www.allaboutcircuits.com/projects/getting-started-with-the-arduino/">Beginner’s
+                                        Guide to the Arduino</a></li>
+
+                                <li> <a href="https://all3dp.com/2/what-is-fusion-360-simply-explained/">Fusion 360
+                                        Simply explained</a>
+                                </li>
+                                <li><a
+                                        href="https://formlabs.com/blog/fusion-360-tutorial-basics-and-tips-for-3d-printing/">Fusion
+                                        360 3D Printing</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="project card">
+            <div class="project-image"><img src="assets/proj4.png" /></div>
+            <div class="project-contents">
+                <div class="project-title">Traffic Light controller</div>
+                <div class="project-time">2022</div>
+                <div class="project-description">
+                    <ul>
+                        <li>Simulated a traffic light cross section on a Zybo board by designing a Verilog programmed
+                            controller based on a state diagram</li>
+                        <li>designed it so that the 4 sensors would output a different combination of LEDS corresponding
+                            to which “street” had a card (1) or no car (0) and would light up correspondingly</li>
+                        <li>Debugged logic gates, Boolean algebra, and combinational logic via zybo board during
+                            troubleshooting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <video src="assets/lay1/sky.mp4" class="lay1" id="video-background" autoplay loop></video>
+    <div class="lay2">
+        <!-- Social links -->
+
+        <div id="social-links-footer">
+            <a target="_blank" href="https://www.linkedin.com/in/midong-zhou/"> <img src="assets/linkedin.png" /></a>
+            <a target="_blank" href="https://github.com/mzhou2017"> <img src="assets/github.png" /></a>
+        </div>
+
+    </div>
+</body>
+
+</html>
