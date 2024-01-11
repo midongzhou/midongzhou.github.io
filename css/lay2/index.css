@@ -1,0 +1,42 @@
+#intro-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro {
+    width: 30%;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+#profile-photo {
+    margin-left: 40px;
+    width: 30%;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+#profile-photo img {
+    max-width: 400px;
+    font-size: 16px;
+}
+
+#profile-photo div{
+   text-align: center;
+   font-size: 10px;
+}
+
+#intro div:nth-child(1) {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+#intro div:nth-child(2) {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+    font-weight: bolder;
+}
